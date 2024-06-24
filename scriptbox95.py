@@ -72,7 +72,7 @@ def setup():
     time.sleep(2)
     print(con+"Chacking For Updates..")
     from main.dta import version, getdata
-    response2 = requests.get('https://api.github.com/repos/amdivyansh/scriptbox95_source_data/releases/latest')
+    response2 = requests.get('https://api.github.com/repos/dkydivyansh/scriptbox_code_new/releases/latest')
     release_info2 = response2.json()
     ver = (release_info2['tag_name'])
     ver2 = int(version)
