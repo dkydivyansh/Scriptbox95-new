@@ -56,7 +56,7 @@ import socket
 
 def is_connected():
     time.sleep(2)
-    print(con+"Chacking For internet..")
+    print(con+"Checking For internet..")
     try:
         socket_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         host = "www.google.com"
