@@ -43,7 +43,7 @@
 
 - Just, Clone this repository -
   ```
-  git clone --depth=1 https://github.com/amdivyansh/scriptbox95.git
+  git clone --depth=1 https://github.com/dkydivyansh/Scriptbox95-new.git
   ```
 
 - Now go to cloned directory and run `python3 scriptbox95.py` -
