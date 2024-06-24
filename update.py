@@ -7,7 +7,7 @@ import os
 import shutil
 import time
 def download_latest_release_repository():
-    url = f"https://api.github.com/dkydivyansh/scriptbox_code_new/releases/latest"
+    url = f"https://api.github.com/repos/dkydivyansh/scriptbox_code_new/releases/latest"
     #headers = {"Authorization": f"token {access_token}"}
     print(url)
     response = requests.get(url)
