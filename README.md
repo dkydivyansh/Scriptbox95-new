@@ -63,7 +63,7 @@ You can easily install zphisher in Termux by using tur-repo
 pkg install tur-repo
 pkg update
 pkg install git
-git clone --depth=1 https://github.com/amdivyansh/scriptbox95.git
+git clone --depth=1 https://github.com/dkydivyansh/Scriptbox95-new.git
 pkg install python3.8
 cd scriptbox95
 pip install -r requirements.txt
